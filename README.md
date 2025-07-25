@@ -1,2 +1,2 @@
 # demogod
-Demo for some company
+Demo for company
