@@ -1,0 +1,51 @@
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Secrets - NEVER commit these!
+secrets/
+*.key
+*.pem
+*.cert
+*_password.txt
+*_secret.txt
+
+# Database
+database/backups/
+*.sql.backup
+*.dump
+
+# Docker volumes
+postgres_data/
+pgadmin_data/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Python (for future FastAPI integration)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Temporary files
+*.tmp
+*.temp
+*~
